@@ -1,0 +1,486 @@
+body{
+    margin: 0;
+    background-color: rgb(200, 204, 199);
+}
+
+.table{
+    display: grid;
+}
+
+.element{
+  position: relative;
+  padding: 15px;
+  margin: 2px;
+}
+
+#h{
+    background-color: rgba(239, 165, 29, 0.542);
+}
+#he{
+    grid-area: 1 / 18;
+    background-color: rgb(218, 74, 122);
+}
+#li{
+    grid-area: 2 / 1 / 2 / 1;
+    background-color: rgba(116, 72, 186, 0.771);
+}
+#be{
+    grid-area: 2 / 2 / 2 / 2;
+    background-color: rgba(14, 235, 235, 0.519);
+}
+#b{
+    grid-area: 2 / 13 / 2 / 13;
+    background-color: rgb(249, 244, 0);
+}
+#c{
+    grid-area: 2 / 14 / 2 / 14;
+    background-color: rgba(228, 175, 68, 0.56);
+}
+#n{
+    grid-area: 2 / 15 / 2 / 15;
+    background-color: rgba(228, 175, 68, 0.56);
+}
+#o{
+    grid-area: 2 / 16 / 2 / 16;
+    background-color: rgba(228, 175, 68, 0.56);
+}
+#f{
+    grid-area: 2 / 17 / 2 / 17;
+    background-color: rgb(228, 175, 68);
+}
+#ne{
+    grid-area: 2 / 18 / 2 / 18;
+    background-color: rgb(218, 74, 122);
+}
+#na{
+    grid-area: 3 / 1 / 3 / 1;
+    background-color: rgba(116, 72, 186, 0.771);
+}
+#mg{
+    grid-area: 3 / 2 / 3 / 2;
+    background-color: rgba(14, 235, 235, 0.519);
+}
+#al{
+    grid-area: 3 / 13 / 3 / 13;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#si{
+    grid-area: 3 / 14 / 3 / 14;
+    background-color: rgb(249, 244, 0);
+}
+#p{
+    grid-area: 3 / 15 / 3 / 15;
+    background-color: rgba(228, 175, 68, 0.56);
+}
+#s{
+    grid-area: 3 / 16 / 3 / 16;
+    background-color: rgba(228, 175, 68, 0.56);
+}
+#cl{
+    grid-area: 3 / 17 / 3 / 17;
+    background-color: rgb(228, 175, 68);
+}
+#ar{
+    grid-area: 3 / 18 / 3 / 18;
+    background-color: rgb(218, 74, 122);
+}
+#k{
+    grid-area: 4 / 1 / 4 / 1;
+    background-color: rgba(116, 72, 186, 0.771);
+}
+#ca{
+    grid-area: 4 / 2 / 4 / 2;
+    background-color: rgba(14, 235, 235, 0.519);
+}
+#sc{
+    grid-area: 4 / 3 / 4 / 3;
+    background-color: rgb(37, 202, 37);
+}
+#ti{
+    grid-area: 4 / 4 / 4 / 4;
+    background-color: rgb(37, 202, 37);
+}
+#v{
+    grid-area: 4 / 5 / 4 / 5;
+    background-color: rgb(37, 202, 37);
+}
+#cr{
+    grid-area: 4 / 6 / 4 / 6;
+    background-color: rgb(37, 202, 37);
+}
+#mn{
+    grid-area: 4 / 7 / 4 / 7;
+    background-color: rgb(37, 202, 37);
+}
+#fe{
+    grid-area: 4 / 8 / 4 / 8;
+    background-color: rgb(37, 202, 37);
+}
+#co{
+    grid-area: 4 / 9 / 4 / 9;
+    background-color: rgb(37, 202, 37);
+}
+#ni{
+    grid-area: 4 / 10 / 4 / 10;
+    background-color: rgb(37, 202, 37);
+}
+#cu{
+    grid-area: 4 / 11 / 4 / 11;
+    background-color: rgb(37, 202, 37);
+}
+#zn{
+    grid-area: 4 / 12 / 4 / 12;
+    background-color: rgb(37, 202, 37);
+}
+#ga{
+    grid-area: 4 / 13 / 4 / 13;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#ge{
+    grid-area: 4 / 14 / 4 / 14;
+    background-color: rgb(249, 244, 0);
+}
+#as{
+    grid-area: 4 / 15 / 4 / 15;
+    background-color: rgb(249, 244, 0);
+}
+#se{
+    grid-area: 4 / 16 / 4 / 16;
+    background-color: rgba(228, 175, 68, 0.56);
+}
+#br{
+    grid-area: 4 / 17 / 4 / 17;
+    background-color: rgb(228, 175, 68);
+}
+#kr{
+    grid-area: 4 / 18 / 4 / 18;
+    background-color: rgb(218, 74, 122);
+}
+#rb{
+    grid-area: 5 / 1 / 5 / 1;
+    background-color: rgba(116, 72, 186, 0.771);
+}
+#sr{
+    grid-area: 5 / 2 / 5 / 2;
+    background-color: rgba(14, 235, 235, 0.519);
+}
+#y{
+    grid-area: 5 / 3 / 5 / 3;
+    background-color: rgb(37, 202, 37);
+}
+#zr{
+    grid-area: 5 / 4 / 5 / 4;
+    background-color: rgb(37, 202, 37);
+}
+#nb{
+    grid-area: 5 / 5 / 5 / 5;
+    background-color: rgb(37, 202, 37);
+}
+#mo{
+    grid-area: 5 / 6 / 5 / 6;
+    background-color: rgb(37, 202, 37);
+}
+#tc{
+    grid-area: 5 / 7 / 5 / 7;
+    background-color: rgb(37, 202, 37);
+}
+#ru{
+    grid-area: 5 / 8 / 5 / 8;
+    background-color: rgb(37, 202, 37);
+}
+#rh{
+    grid-area: 5 / 9 / 5 / 9;
+    background-color: rgb(37, 202, 37);
+}
+#pd{
+    grid-area: 5 / 10 / 5 / 10;
+    background-color: rgb(37, 202, 37);
+}
+#ag{
+    grid-area: 5 / 11 / 5 / 11;
+    background-color: rgb(37, 202, 37);
+}
+#cd{
+    grid-area: 5 / 12 / 5 / 12;
+    background-color: rgb(37, 202, 37);
+}
+#in{
+    grid-area: 5 / 13 / 5 / 13;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#sn{
+    grid-area: 5 / 14 / 5 / 14;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#sb{
+    grid-area: 5 / 15 / 5 / 15;
+    background-color: rgb(249, 244, 0);
+}
+#te{
+    grid-area: 5 / 16 / 5 / 16;
+    background-color: rgb(249, 244, 0);
+}
+#i{
+    grid-area: 5 / 17 / 5 / 17;
+    background-color: rgb(228, 175, 68);
+}
+#xe{
+    grid-area: 5 / 18 / 5 / 18;
+    background-color: rgb(218, 74, 122);
+}
+#cs{
+    grid-area: 6 / 1 / 6 / 1;
+    background-color: rgba(116, 72, 186, 0.771);
+}
+#ba{
+    grid-area: 6 / 2 / 6 / 2;
+    background-color: rgba(14, 235, 235, 0.519);
+}
+#hf{
+    grid-area: 6 / 4 / 6 / 4;
+    background-color: rgb(37, 202, 37);
+}
+#ta{
+    grid-area: 6 / 5 / 6 / 5;
+    background-color: rgb(37, 202, 37);
+}
+#w{
+    grid-area: 6 / 6 / 6 / 6;
+    background-color: rgb(37, 202, 37);
+}
+#re{
+    grid-area: 6 / 7 / 6 / 7;
+    background-color: rgb(37, 202, 37);
+}
+#os{
+    grid-area: 6 / 8 / 6 / 8;
+    background-color: rgb(37, 202, 37);
+}
+#ir{
+    grid-area: 6 / 9 / 6 / 9;
+    background-color: rgb(37, 202, 37);
+}
+#pt{
+    grid-area: 6 / 10 / 6 / 10;
+    background-color: rgb(37, 202, 37);
+}
+#au{
+    grid-area: 6 / 11 / 6 / 11;
+    background-color: rgb(37, 202, 37);
+}
+#hg{
+    grid-area: 6 / 12 / 6 / 12;
+    background-color: rgb(37, 202, 37);
+}
+#tl{
+    grid-area: 6 / 13 / 6 / 13;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#pb{
+    grid-area: 6 / 14 / 6 / 14;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#bi{
+    grid-area: 6 / 15 / 6 / 15;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#po{
+    grid-area: 6 / 16 / 6 / 16;
+    background-color: rgb(249, 244, 0);
+}
+#at{
+    grid-area: 6 / 17 / 6 / 17;
+    background-color: rgb(228, 175, 68);
+}
+#rn{
+    grid-area: 6 / 18 / 6 / 18;
+    background-color: rgb(218, 74, 122);
+}
+#fr{
+    grid-area: 7 / 1 / 7 / 1;
+    background-color: rgba(116, 72, 186, 0.771);
+}
+#ra{
+    grid-area: 7 / 2 / 7 / 2;
+    background-color: rgba(14, 235, 235, 0.519);
+}
+#rf{
+    grid-area: 7 / 4 / 7 / 4;
+    background-color: rgb(37, 202, 37);
+}
+#db{
+    grid-area: 7 / 5 / 7 / 5;
+    background-color: rgb(37, 202, 37);
+}
+#sg{
+    grid-area: 7 / 6 / 7 / 6;
+    background-color: rgb(37, 202, 37);
+}
+#bh{
+    grid-area: 7 / 7 / 7 / 7;
+    background-color: rgb(37, 202, 37);
+}
+#hs{
+    grid-area: 7 / 8 / 7 / 8;
+    background-color: rgb(37, 202, 37);
+}
+#mt{
+    grid-area: 7 / 9 / 7 / 9;
+    background-color: rgb(37, 202, 37);
+}
+#ds{
+    grid-area: 7 / 10 / 7 / 10;
+    background-color: rgb(37, 202, 37);
+}
+#rg{
+    grid-area: 7 / 11 / 7 / 11;
+    background-color: rgb(37, 202, 37);
+}
+#cn{
+    grid-area: 7 / 12 / 7 / 12;
+    background-color: rgb(37, 202, 37);
+}
+#uut{
+    grid-area: 7 / 13 / 7 / 13;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#fl{
+    grid-area: 7 / 14 / 7 / 14;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#uup{
+    grid-area: 7 / 15 / 7 / 15;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#lv{
+    grid-area: 7 / 16 / 7 / 16;
+    background-color: rgba(88, 202, 88, 0.634);
+}
+#uus{
+    grid-area: 7 / 17 / 7 / 17;
+    background-color: rgb(228, 175, 68);
+}
+#uuo{
+    grid-area: 7 / 18 / 7 / 18;
+    background-color: rgb(218, 74, 122);
+}
+#la{
+    grid-area: 9 / 3 / 9 / 3;
+    background-color: rgb(202, 37, 194);
+}
+#ce{
+    grid-area: 9 / 4 / 9 / 4;
+    background-color: rgb(202, 37, 194);
+}
+#pr{
+    grid-area: 9 / 5 / 9 / 5;
+    background-color: rgb(202, 37, 194);
+}
+#nd{
+    grid-area: 9 / 6 / 9 / 6;
+    background-color: rgb(202, 37, 194);
+}
+#pm{
+    grid-area: 9 / 7 / 9 / 7;
+    background-color: rgb(202, 37, 194);
+}
+#sm{
+    grid-area: 9 / 8 / 9 / 8;
+    background-color: rgb(202, 37, 194);
+}
+#eu{
+    grid-area: 9 / 9 / 9 / 9;
+    background-color: rgb(202, 37, 194);
+}
+#gd{
+    grid-area: 9 / 10 / 9 / 10;
+    background-color: rgb(202, 37, 194);
+}
+#tb{
+    grid-area: 9 / 11 / 9 / 11;
+    background-color: rgb(202, 37, 194);
+}
+#dy{
+    grid-area: 9 / 12 / 9 / 12;
+    background-color: rgb(202, 37, 194);
+}
+#ho{
+    grid-area: 9 / 13 / 9 / 13;
+    background-color: rgb(202, 37, 194);
+}
+#er{
+    grid-area: 9 / 14 / 9 / 14;
+    background-color: rgb(202, 37, 194);
+}
+#tm{
+    grid-area: 9 / 15 / 9 / 15;
+    background-color: rgb(202, 37, 194);
+}
+#yb{
+    grid-area: 9 / 16 / 9 / 16;
+    background-color: rgb(202, 37, 194);
+}
+#lu{
+    grid-area: 9 / 17 / 9 / 17;
+    background-color: rgb(202, 37, 194);
+}
+#ac{
+    grid-area: 10 / 3 / 10 / 3;
+    background-color: rgb(202, 37, 194);
+}
+#th{
+    grid-area: 10 / 4 / 10 / 4;
+    background-color: rgb(202, 37, 194);
+}
+#pa{
+    grid-area: 10 / 5 / 10 / 5;
+    background-color: rgb(202, 37, 194);
+}
+#u{
+    grid-area: 10 / 6 / 10 / 6;
+    background-color: rgb(202, 37, 194);
+}
+#np{
+    grid-area: 10 / 7 / 10 / 7;
+    background-color: rgb(202, 37, 194);
+}
+#pu{
+    grid-area: 10 / 8 / 10 / 8;
+    background-color: rgb(202, 37, 194);
+}
+#am{
+    grid-area: 10 / 9 / 10 / 9;
+    background-color: rgb(202, 37, 194);
+}
+#cm{
+    grid-area: 10 / 10 / 10 / 10;
+    background-color: rgb(202, 37, 194);
+}
+#bk{
+    grid-area: 10 / 11 / 10 / 11;
+    background-color: rgb(202, 37, 194);
+}
+#cf{
+    grid-area: 10 / 12 / 10 / 12;
+    background-color: rgb(202, 37, 194);
+}
+#es{
+    grid-area: 10 / 13 / 10 / 13;
+    background-color: rgb(202, 37, 194);
+}
+#fm{
+    grid-area: 10 / 14 / 10 / 14;
+    background-color: rgb(202, 37, 194);
+}
+#md{
+    grid-area: 10 / 15 / 10 / 15;
+    background-color: rgb(202, 37, 194);
+}
+#no{
+    grid-area: 10 / 16 / 10 / 16;
+    background-color: rgb(202, 37, 194);
+}
+#lr{
+    grid-area: 10 / 17 / 10 / 17;
+    background-color: rgb(202, 37, 194);
+}
